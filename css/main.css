@@ -1,0 +1,205 @@
+
+
+
+/* HealthBook */
+body {
+
+  height: 100%;
+  /* background: linear-gradient(to right, white 20%, white 20%, white 40%, white 40%, white 60%, white 60%, white 75%, #D7DDFF 75%, #D7DDFF 100% ) */
+}
+
+.healthBook {
+  padding-top: 50px;
+  display: block;
+  padding: 70px 60px;
+}
+
+@media (min-width: 320px) {
+  .healthBook {
+    padding: 70px 0 ;
+  }
+}
+
+.healthBook .content-section {
+  margin-top: 6rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+  .healthBook .content-section {
+    text-align: center;
+  }
+
+  .healthBook .content-section .Box-one .text h1 {
+    font-size: 50px;
+  }
+  .healthBook .content-section .Box-one .text p {
+    font-size: 22px;
+  }
+}
+
+
+.healthBook .text h1 {
+  font-size: 75px;
+  text-transform: capitalize;
+  color: #0D1E4F
+}
+
+
+.healthBook .text p {
+  font-size: 35px;
+  color: #9E9E9E;
+}
+
+.healthBook .Box-one .clinic {
+  display:flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/* @media (max-width: 992px ) {
+  .healthBook .Box-one {
+    
+  }
+} */
+
+@media (min-width : 768px) {
+  .healthBook .Box-one {
+    font-size: 18px;
+    color: aquamarine;
+  }
+}
+
+.healthBook .Box-one .fa {
+  color: #50D8BE;
+}
+
+.healthBook .Box-one .clinic .text-health {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+  color:#9E9E9E
+}
+
+.healthBook .Box-one .clinic .description {
+  color: #9E9E9E;
+}
+/* Start Doctor Box*/
+.healthBook .Box-one .clinic .doctor {
+  transition: transform .2s;
+  width: 47%;
+  padding: 20px;
+  border-color: #50D8BE;
+  border-radius: 17px; 
+  box-shadow: 0px 1px 15px #bfbbbb ;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+.healthBook .Box-one .clinic .doctor:hover {
+  box-shadow: 0px 1px 15px #50D8BE ;
+  border-color: #50D8BE;
+  transform: scale(1.06)
+}
+
+/* Start Patient Box*/
+
+.healthBook .Box-one .clinic .Patient {
+  transition: transform .3s ease-in-out;
+  background-color: white;
+  width: 47%;
+  padding: 20px;
+  border-radius: 17px;
+  box-shadow: 0px 1px 15px #bfbbbb;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.healthBook .Box-one .color {
+  color: #50D8BE;
+  font-size: 30px;
+  margin-bottom: 2px;
+  font-weight: 600;
+
+}
+
+.healthBook .Box-one .clinic .Patient:hover {
+  box-shadow: 0px 1px 15px #50D8BE ;
+  border-color: #50D8BE;
+  transform: scale(1.06);
+}
+
+.healthBook .content-section .Box-one .seller {
+  font-size: 20px;
+  color:#707070;
+  width: 357px;
+  text-align: right;
+  padding-top: 50px;
+}
+
+.healthBook .content-section .Box-one .seller span {
+  color: #50D8BE;
+}
+
+@media (min-width: 320px) and (max-width: 480px ) {
+  .healthBook .content-section .Box-one .seller {
+    text-align: left;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 991px){
+  .healthBook .content-section .Box-one .seller {
+    text-align: center;
+    width: auto;
+  }
+} 
+
+
+
+/* Box Two */
+
+
+.healthBook .content-section .Box-two {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.healthBook .content-section .Box-two .Custom-color {
+  background: linear-gradient(90deg, white 50%, #D7DDFF 50%);
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.healthBook .content-section .Box-two .img-holder .doctors {
+  width: 100%;
+  padding-bottom: 36px;
+  /* margin-left: 40%; */
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .healthBook .content-section .Box-two .img-holder .doctors {
+    margin-left: 0;
+    width:100%;
+  }
+};
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .healthBook .content-section .Box-two .img-holder .doctors {
+    width: 100%;
+    background-color: #50D8BE;
+    padding-bottom: 0;
+    margin-left: 3%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .healthBook .content-section .Box-two .img-holder .doctors {
+    margin-left: 0;
+  }
+}
+
+
